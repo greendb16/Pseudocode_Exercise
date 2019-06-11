@@ -1,0 +1,51 @@
+1.
+
+Declare sum as zero
+Declare Exam Count as zero
+While Exam Count is thes than 10
+	input score
+	sum equals sum plus score
+	add 1 to Exam Count
+end while
+If Exam Count=10
+ Divide sum by Exam Count
+ Print Result
+ 
+ Check:  user inputs 1 score sum becomes zero plus score, no average printed due to exam count <10,
+ continue input of scores until exam count equals 10.  No longer taking input, divide final sum by exam count(10)
+ 
+ inputs(score)		sum		exam count		PRINT RESULT
+ -					0		0					-
+ 59					59		1					-
+ 98					157		2					-
+ 65					222		3					-
+ 105				327		4					-
+ 49					376		5					-
+ 67					443		6					-
+ 76					519		7					-
+ 84					603		8					-
+ 17					620		9					-
+ 89					709		10					70.9
+ 
+ 
+ 
+ 2.
+ 
+ Declare roof dimensions inches as zero
+ Declare total runoff as zero
+ input roof dimensions in feet 
+		roof dimensions inches = roof dimentions feet multiplyed by 12
+ input total rainfall in inches
+		total runnoff inches = roof dimensions inches multiplyed by total rainfall inches
+		total runoff gallons = total runoff inches divided by 231
+		print total runoff gallons
+
+Check: Roof dimensions input as 40'x50'.  Roof dimesnsions inches = 40x50x12 =  20000". 
+		Total rainfall input as 10".  Total runoff inches = 20000x10 = 200000'
+		Total runoff Gallons = 200000/231 = 86.58 gallons
+		Print - 86.58 Gallons
+		
+		
+		
+ 
+
