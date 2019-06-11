@@ -14,12 +14,12 @@ If Exam Count=10
  Check:  user inputs 1 score sum becomes zero plus score, no average printed due to exam count <10,
  continue input of scores until exam count equals 10.  No longer taking input, divide final sum by exam count(10)
  
- inputs(score)		sum		exam count		PRINT RESULT
+ inputs(score)			sum		exam count		PRINT RESULT
  -					0		0					-
  59					59		1					-
  98					157		2					-
  65					222		3					-
- 105				327		4					-
+ 105					327		4					-
  49					376		5					-
  67					443		6					-
  76					519		7					-
